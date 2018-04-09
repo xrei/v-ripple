@@ -46,12 +46,12 @@ export default {
   box-sizing border-box
 
 body, html
-  font-family: 'Open Sans'
-  line-height: 1.5
+  font-family 'Open Sans'
+  line-height 1.5
   color rgba(69, 90, 100, 1)
 
 a
-  text-decoration: none
+  text-decoration none
   color inherit
 
 #app
@@ -60,25 +60,25 @@ a
   height 100vh
 
 .btn
-  align-items: center
-  border-radius: 2px;
-  border: 0
-  display: inline-flex
-  height: 36px
-  flex: 0 1 auto
+  align-items center
+  border-radius 2px
+  border 0
+  display inline-flex
+  height 36px
+  flex 0 1 auto
   font-family 'Roboto'
-  font-size: 16px
-  font-weight: 500
+  font-size 16px
+  font-weight 500
   text-transform uppercase
-  justify-content: center
-  margin: .5rem 0
-  min-width: 8rem
-  outline: 0
-  text-decoration: none
+  justify-content center
+  margin .5rem 0
+  min-width 8rem
+  outline 0
+  text-decoration none
   transition-property color, background-color
-  transition: .3s cubic-bezier(.25,.8,.25,1)
-  position: relative
-  cursor: pointer
+  transition .3s cubic-bezier(.25,.8,.25,1)
+  position relative
+  cursor pointer
   background-color rgba(83, 109, 254, 1)
   color #fff
   box-shadow 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2)
