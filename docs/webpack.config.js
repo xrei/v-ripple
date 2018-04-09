@@ -42,7 +42,7 @@ module.exports = {
   devServer: {
     historyApiFallback: true,
     historyApiFallback: {
-      index: '/example/'
+      index: '/docs/'
     },
     hot: true,
     stats: {
